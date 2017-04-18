@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link href="Style.css" rel='stylesheet'>
+
+
+    <script type="text/javascript">
+
+        function Lien() {
+            i = document.Choix.Liste.selectedIndex;
+            if (i == 0) return;
+            url = document.Choix.Liste.options[i].value;
+            parent.location.href = url;
+        }
+
+        var liste, texte;
+        liste = document.getElementById("liste");
+        texte = liste.options[liste.selectedIndex].text;
+
+        alert("Vous avez sélectionné " + texte);
+
+        </script>
+
+    
+
+</head>
+
+<body>
+    <br /><br />
+    <FORM NAME="Choix">
+        <SELECT NAME="Liste" onChange="Lien()">
+            <OPTION VALUE="co">Choisir une option
+            <OPTION VALUE="fb">Facebook
+            <OPTION VALUE="tw">Twitter
+            <OPTION VALUE="http://www.google.com">Recherche
+        </SELECT>
+    </FORM>
+
+    
+
+
+</body>
+
+</html>

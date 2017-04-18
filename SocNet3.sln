@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocNet3", "SocNet3\SocNet3.csproj", "{00ACF26D-802F-4294-A641-C5506DCE5B05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SocNet3.Tests", "SocNet3.Tests\SocNet3.Tests.csproj", "{8CED13AA-FB6B-435A-8700-35B75FC455BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00ACF26D-802F-4294-A641-C5506DCE5B05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00ACF26D-802F-4294-A641-C5506DCE5B05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00ACF26D-802F-4294-A641-C5506DCE5B05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00ACF26D-802F-4294-A641-C5506DCE5B05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CED13AA-FB6B-435A-8700-35B75FC455BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CED13AA-FB6B-435A-8700-35B75FC455BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CED13AA-FB6B-435A-8700-35B75FC455BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CED13AA-FB6B-435A-8700-35B75FC455BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

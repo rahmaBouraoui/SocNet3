@@ -1,0 +1,149 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="Content/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+    <link href="Style.css" rel='stylesheet'>
+
+    <script type="text/javascript">
+        sfHover = function () {
+            var sfEls = document.getElementById("menu").getElementsByTagName("11");
+            for (var i = 0; i < sfEls.length; i++) {
+                sfEls[i].onmouseout = function () {
+                    this.className += "afhover";
+                }
+                sfEls[i].onmouseout = function () {
+                    this.className = this.className.replace(new RegExp("afhover\b"), "");
+                }
+            }
+        }
+
+        if (window.attachEvent) window.attachEvent("onload", sfHover);
+        </script>
+
+
+
+    <title>Accueil</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row main">
+            <div class="main-login main-center">
+
+                <br /> <br />
+
+                <font size="20px"><b><center><label>Nom - Prénom</label></center></b></font><br />
+
+                <form class="" method="post" action="">
+
+
+                    <div class="form-group">
+
+
+                        <!--<button onclick="myFunction()" type="button" class="glyphicon glyphicon-plus-sign"></button>
+                            
+                            
+
+                        <select id="liste-deroulante" style="display: none;">
+                                <option value="facebook">Facebook</option>
+                                <option value="twitter">Twitter</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="google">Google</option> 
+                        </select>
+
+                        <script>
+                        function myFunction() {
+                            alert("Ajouter un autre réseau social");
+                            var select = document.getElementById("liste-deroulante");
+                            if (select.style.display == "inline") {
+                                select.style.display = "none";
+                            }
+                            else if (select.style.display == "none") {
+                                select.style.display = "inline";
+                            }
+                            
+                        }
+                        </script>
+                            
+                            -->
+
+
+                        <!--<ul>
+                            <li>
+                                <a href="#"> Ajouter un résseau social </a>
+                                <ul>
+                                    <li>Facebook</li>
+                                    <li>Twitter</li>
+                                    <li>...</li>
+                                </ul>
+                            </li>
+                        </ul>
+                            -->
+                        <select id="liste-deroulante" style="display: none;">
+                                <option value="facebook">Facebook</option>
+                                <option value="twitter">Twitter</option>
+                                <option value="instagram">Instagram</option>
+                                <option value="google">Google</option> 
+                        </select>
+                        <form id="form" name="form" method="" action="">
+                            <button onclick="myFunction()" type="button" class="glyphicon glyphicon-plus-sign"></button>
+
+                            <script>
+
+                                function testListe() {
+                                    nb = form.reseau.length //le nb de reseaux possibles
+                                    i = 0; //parcours de tous les elements
+                                    for (i = 0; i < nb; ++) {
+                                        if (form.reseau.option[i].selected) {
+                                            sReseauName = form.reseau.option[i].value;
+                                            alert(sReseauName + " est sélectionné");
+                                        }
+                                    }
+
+                                }
+
+                                function myFunction() {
+                                    alert("Ajouter un autre réseau social");
+                                        <select name="reseau" id="reseau">
+                                            <option value="Facebook">Facebook</option>
+                                            <option value="Twitter">Twitter</option>
+                                            <option value="Insta">Insta</option>
+                                        </select>);
+
+                                    <inout type="submit" name="Submit" value="Valider" onClick=myFunction()"/>
+
+                                        
+                                }
+                            </script>
+                        </form>
+
+                        
+
+                    </div>
+
+                </form>
+
+
+                <nav class="footer navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-footer">
+                            <a class="navbar-brand">SocNet - BMCRA - 2016/2017 </a>
+                        </div>
+                        <div class="nav navbar-nav">
+                        </div>
+
+                </nav>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
